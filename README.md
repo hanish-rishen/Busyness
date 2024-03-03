@@ -16,7 +16,7 @@ Busyness is your all-encompassing productivity hub, designed to simplify task ma
 
 ## About Page
 
-![About](https://github.com/hanish-rishen/Busyness/assets/110720727/9c3d4775-0646-4c7e-996b-e2ff10a968f9)
+![About](https://github.com/hanish-rishen/Busyness/assets/110720727/f7ddb051-be96-450f-b76a-2592c5392c1a)
 
 ## Register Page
 
