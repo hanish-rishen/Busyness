@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Busyness/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busyness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" crossorigin src="/Busyness/assets/index-D7-AMDfa.js"></script>
+    <link rel="stylesheet" crossorigin href="/Busyness/assets/index-DttZ1Xau.css">
+  </head>
+  <body class="font-[Poppins]">
+    <header class="bg-white">
+      <nav class="flex justify-between items-center w-[92%] mx-auto">
+        <div>
+          <img class="w-80 h-30" src="/Busyness/assets/logo-Csfy_gSO.png">
+        </div>
+        <div class="nav  md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[100%] md:w-auto w-full flex items-center px-5">
+          <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+            <li>
+              <a class ="hover:text-blue-400" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class ="hover:text-blue-400" href="team.html">Team</a>
+            </li>
+            <li>
+                <a class ="hover:text-blue-400" href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a class ="hover:text-blue-400" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-center gap-6">
+          <a href="register.html"><button class="bg-blue-400 text-white px-5 py-2 rounded-full hover:bg-blue-500">Register</button></a>
+          <a href="sign_in.html"><button class="bg-blue-400 text-white px-5 py-2 rounded-full hover:bg-blue-500">Sign in</button></a>
+          <ion-icon onclick="onToggleMenu(this)"   name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+    </header>
+    <script>
+      function onToggleMenu(e){
+        const Nav = document.querySelector('.nav')
+        e.name= e.name === 'menu' ? 'close' : 'menu'
+        Nav.classList.toggle('top-[12%]')
+      }
+    </script>
+    <div class="flex items-center justify-center min-h-screen" style="background-color: white">
+      <div class="container mx-auto">
+        <section class="text-gray-600 body-font">
+          <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+              <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Unlock Your Full Potential with
+                <br class="hidden lg:inline-block">Busyness
+              </h1>
+              <p class="mb-8 leading-relaxed">Your All-in-One Productivity Hub for Efficient Task Management and Work-Life Balance. Discover a Smarter Way to Work and Thrive in Your Busy Life !</p>
+              <div class="flex justify-center">
+                <a href="register.html"><button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-full text-lg">Sign Up for Free</button></a>
+              </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+              <img class="object-cover object-center rounded" alt="hero" src="/Busyness/assets/hero-D-vVHK-J.jpg">
+            </div>
+          </div>
+        </section>
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block hover:brightness-90 transition duration-300" src="/Busyness/assets/time_management-DyJTxRE8.jpg">
+                </a>
+                <div class="mt-4">
+                  <h2 class="text-gray-900 title-font text-lg font-medium">Mastering Time Management</h2>
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Time Management</h3>
+                  <p class="mt-1">₹3,499</p>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block hover:brightness-90 transition duration-300" src="/Busyness/assets/problem_solving-BsD1Tybu.jpg">
+                </a>
+                <div class="mt-4">
+                  <h2 class="text-gray-900 title-font text-lg font-medium">Advanced Techniques for Creative Problem Solving</h2>
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Problem Solving</h3>
+                  <p class="mt-1">₹4,599</p>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block hover:brightness-90 transition duration-300" src="/Busyness/assets/productivity_analytics-9GIMwBLh.jpg">
+                </a>
+                <div class="mt-4">
+                  <h2 class="text-gray-900 title-font text-lg font-medium">Data-Driven Productivity Mastery</h2>
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Productivity Analytics</h3>
+                  <p class="mt-1">₹6,299</p>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block hover:brightness-90 transition duration-300" src="/Busyness/assets/goal_setting-DkvouRUn.jpg">
+                </a>
+                <div class="mt-4">
+                  <h2 class="text-gray-900 title-font text-lg font-medium">Effective Goal Setting for Success</h2>
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Goal Setting</h3>
+                  <p class="mt-1">₹2,799</p>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block hover:brightness-90 transition duration-300" src="/Busyness/assets/work_life_balance-C4TR69oE.jpg">
+                </a>
+                <div class="mt-4">
+                  <h2 class="text-gray-900 title-font text-lg font-medium">Stress-Free Work-Life Balance</h2>
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Work-Life Balance</h3>
+                  <p class="mt-1">₹4,199</p>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block hover:brightness-90 transition duration-300" src="/Busyness/assets/email_management-Cv9kwWeQ.jpg">
+                </a>
+                <div class="mt-4">
+                  <h2 class="text-gray-900 title-font text-lg font-medium">Efficient Email Management Strategies</h2>
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Email Management</h3>
+                  <p class="mt-1">₹1,999</p>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block hover:brightness-90 transition duration-300" src="/Busyness/assets/Mindfulness-KVbrDaap.jpg">
+                </a>
+                <div class="mt-4">
+                  <h2 class="text-gray-900 title-font text-lg font-medium">Mindfulness for Productivity</h2>
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Mindfulness</h3>
+                  <p class="mt-1">₹3,499</p>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block hover:brightness-90 transition duration-300" src="/Busyness/assets/project_management-DXKbMpsI.jpg">
+                </a>
+                <div class="mt-4">
+                  <h2 class="text-gray-900 title-font text-lg font-medium">Project Management Fundamentals</h2>
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Project Management</h3>
+                  <p class="mt-1">₹5,599</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+              <img alt="feature" class="object-cover object-center h-full w-full" src="/Busyness/assets/content-hHOcX6nh.jpg">
+            </div>
+            <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+              <div class="flex flex-col mb-10 lg:items-start items-center">
+                <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+                  <img class="mx-auto mb-2"  src="data:image/png;base64,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">
+                </div>
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Task Management</h2>
+                  <p class="leading-relaxed text-base">Schedule tasks to repeat daily, weekly, or monthly, automating repetitive actions. Add tags to tasks for easy categorization and quick identification of common themes. Link tasks to show dependencies, ensuring that tasks are completed in the correct order.</p>
+                  <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="flex flex-col mb-10 lg:items-start items-center">
+                <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+                  <img class="mx-auto mb-2"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAABYgAAAWIBXyfQUwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAhESURBVHic1ZtrjF1VFcd/M3dm2koVy9QppYKlBbQWBF+NwhTo9CGgWHwENT5iJGBb21JKW4qRGBMV9QNqhKAxERITwSofSMTUUp+p8QU+eIiUYtCorQ1apu3MtNCZ64f/2u59zpxzz/Pe0X9yc+/ZZ+/12q+11t63i/ZgAFgMNCrSGQf+CPyzskQdxDJgBGjW9BkFVrZL2J420PwY8CLgO8ChirROBt4DrAcerEirY/gB6rlzaqA132j9uAZaiehuF+EAPcDsDvAphU4Y4G7gb8AZHeBVGO1YA+L4DXAa8FwHeBVGJ0bAl4Eh4HAHeBVGJwzwP412TIG/2PdDwImg/DFgOfAC8Crge8ApGbScI/VMjfJFUOcIOA1YAXwK+CHQB8wCegNeE/a7gXyFNDSs7QzgJ8AngQsz2kw5vob27Ln2/E17XlaC1mJr+4A9v9Get1eUsXacCyyx3wuAq4N3jyOhF5SgO9faPmHPPcAW5BgBnAq8tATd2rGH5O3tfUiBRyvQfhoFQ0sS3h0EflSBdm0YBN4SK3szMIzm+xUVaK9HRvwdMC32bjPwkQq0K2ED8CsUqMTxJqR8HfO1G/ip0bqhRb2PApdW5FUIG9DcjM/BM4FnkcCfqInX64zer1Pe9wFjKPJsO3oz3t+LhP1KjTy7gKO0DqtfQ7Y/URl9yMFJU2466onD1L9XH0BJkSwsRKOzUBYqryM0gYKaR1Lez0VGeIR8wrYDG1HcMX8qmL8SDf+dbaCddwTMosRimDUCuoAdwLqihKcAh5DbnOVmR5BlgAbwemBRabE6j88C+8mZhcqKBk8AZ6Hh/f+Cn6M16WhVQiehdHRXjrpJa8BbKRcIxZF3DagdH0dKLc1R9xyruysoO4T8+aooY4Ae4ENUTMYOoK0lywECeYVN4Mmg7Bjwj+B5PvB1YF5QthlYGzzPA+5AXqVDGQO48PmWgu0q4SFjeqU9xw1wg70PFR4G/hU8r7M6m4KyMgboQqF5UrwSQdousACls0/PaD8d2IYcoPOs7B7Us3Hajdi34x8+9wTlIXqBS9AI2gccMZ5bTYY4mmj7Hs6QPxVXI+9vVYs6/ShIcWd4w8DzRM/1whGwxcrWB2VHiOYTNlqdzUHZgRjN5/ERZxNFpv0J8p0BfAZ4cQsdUkfADuBlRBe1EP3AbjTXfgGcj4bbBbR3xR4zHicbz1+ihMluJhthFVrI31C3EP0oSdFE54AzrPx0NDybKDI8Tn0jYAz4lr17Gj81Z6BOcomT0AgNlLIrhc+hRS3uKIXK78IrP0BU+R4mL4JVDDBqCt1j7/fhk6+tjJCJtCnwHLqUMB6UnYKG2gXoqHo16hmQw7MQTZ0PED0PqAvjwAeBbxuvS618zGR50GTbbbLOAr6KpkpldBmDeM87NFD2JjRo3SPAodt4xeP+GTEZlyCjraUF0kZAN9G4+nJ06PEUcBW+5x3Ggd/iDz7aiQnjNR4rH0Oy7UMufD+aJne2IpZmgC3An4FX2/Pb7fvTTF3CIw9GkIwgmQ9mNUiLBr8PzMGf873cvv9QRboC6I79LjKyfm/f70TT4sN5GYV4DLgRWRT8fDteQJAquBI5MJehgObJ1tUjcDIOoMPYlrFMq3zAhcAr0NbTaVxM9D7B50vQ2AW8DZ1Gp6JVRmg7cBfqfXcGcKyEIGXwKLof+DM0lHcUaOtknEmG8tB6BKxBw2gayr2PEN3W2om7gdtKtt2PFupzUW6w5aKdNgKWAu9FaaVbjdD9KBDJiyb5sklpbcviOJL1JSgYOhv5FYN5CWxCq24T7a0TKLtzZqtGCXgCeYSLkKHvZ7Ij9G+0ny+2Ot+1OqsL8opjIZJ5AunQtN+bWjUCuN4qjuAvPDSRX1AUm/FG3B/QihugifcaXbBzUgl+cTjPs4l0GUG6XZ/WIFTeJTNvNAJH0MpcBN1oIf076uW/Gq0v2Pt+tEgdRVmhYyi6PKsgnyQsRTKHnefuMCcaIVR+KPbOWfII+RKkSWigLfUYUvpe4E9G90tBnTqQpLzDEAlGuIZ05R3qMALowsQofmg+gLYr0Kqdxj8vQuW3BuXLgNfa79AI14D85eM5mG+luhHWGuNRdG4QYg+aKteWpB0qvy0on4YW46eCsiGk8wGAveRcIalmhDV45ZNyjZejKTIBXFeQ9iDJyjusA94RPG8iuIS1FD8k3p+D2Ta8EfLurU75MVonWq/Ab71rctLOUj6OcL37bycOoS0p70FCHiP0oTtDd+G3w/iFqiRcht+7v2E0+lLqDqKYoYzyk6Z86BbPjL9MwE3G+DBRI6xG8/kEfrF7lmLnhEP4+0ZNo7UHf+gCcBFe+Zty0NxI9mIPKH5+wRpkYTtRI3yRqNI7gZspmKg09KO09k6ixriNaM/XqjzoPoBbEzbkIO6M4Hr8IFpw6ryH3G00D8Z45VF+AwWUd1hOMSPcjO+hd6Eg6HzKB0MOM9EIcJci3x3wKar88qLMl6MtK8kIZ6MjqauCslvw5wKr7be7Ozzb2uTBILod3o1S28/gF7gd5D/1dcqPUkJ5hxV4I4RBzCVW5i5E9gL3mXB3orz8rehSMyhXP4xGhIv6HL3zUJzg/ht4O/IHktYNF6DdR+tU13q88isytcxAmhEGkEK9+DB2L0qmxrEKXWkF5Rb24YOiRSiReZE9Tyf9D1ZzjEfTeCYZoVblHS5GUVt8OjTwZ3Z7iV5+aBfmoHRZ0ki4jjYo7xA3wlQo73Aqk41wLW1U3mElfjo8zNQo7zAPPx0exivftv8ZO6zEX1B4nKlR3mEe/p8pw3RAeYfZ6Nwg/keGqcA0JEupG2H/AW+3dQ1WKzLqAAAAAElFTkSuQmCC">
+                </div>
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Collaboration Tools</h2>
+                  <p class="leading-relaxed text-base">Create dedicated project spaces where teams can collaborate on specific initiatives. Easily assign tasks to team members and track their progress. Receive real-time notifications for task updates, mentions, and upcoming deadlines.</p>
+                  <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="flex flex-col mb-10 lg:items-start items-center">
+                <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+                  <img class="mx-auto mb-2"  src="data:image/png;base64,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">
+                </div>
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Productivity Resources</h2>
+                  <p class="leading-relaxed text-base">Regular contributions from industry experts offering practical advice and insights. Access exclusive webinars and workshops to delve deeper into specific productivity strategies.</p>
+                  <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Busyness - Your Gateway to Productivity Excellence</h1>
+              <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Unlock your full potential with Busyness, a comprehensive productivity hub designed to streamline your tasks, enhance collaboration, and provide valuable insights. From mastering time management to fostering teamwork, Busyness empowers you to conquer your busy life with efficiency and ease.</p>
+            </div>
+            <div class="flex flex-wrap -m-4 text-center">
+              <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                  <img class="mx-auto mb-2"  src="data:image/png;base64,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">
+                  <h2 class="title-font font-medium text-3xl text-gray-900">98%</h2>
+                  <p class="leading-relaxed">User Satisfaction</p>
+                </div>
+              </div>
+              <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                  <img class="mx-auto mb-2"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAB2AAAAdgB+lymcgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAUPSURBVHic7ZtdbBRVFMd/2yVAKfKhUqpJERNCgqCJWj+KacAHFRtjlPhqoiYaI2rUF2NiYvQBxSc/ovhtjDz4QAQlRuMnSKKgtmiABzFB8aNgqbVFaz+giw9nFubemenO7L1nuqv8kpvMbDvn/O+d2Tvnnnu2QH40A53ASmAZcA4wO/jbIHAA2ANsBd4DDueoTZXlwGZgDDieso0Bm4D2SdDrjQVIx9N2Oqm9HdiqK1YDAyR36hjQA3wTtJ7gs6T//xO4IdceOPAAUCLaiT+A9cA1wNSY66YBq4AXgP6Y60vAfcranVlDVPgo8DQwJ4OducATwD8x9u73qNcr1wHjmGL3IzN+tZwP/GjZHAeudVKqQAvQhyl0B3CmB9vzgK8s24eR12rN8CamwAPAfI/2W4CfLR+ve7TvxFLMSW8MuFDBz8XAUcyvwhIFP5l5FfPOrFf09aLl62VFX6mYARzhpKAh5HHV4mzMN8MAMF3RX0U6Me/Ixhx8brJ8XuVirMFRTId1/q6jvTRsts5XuBhzHYDzrPOtjvbSsM06X+pizHUAWkPHJeCgo7009CCPfhmnhZLrAMwMHfchryltxjBzBae5GHMdgFLoOG6Bo0V45j/mYsh1AAZDx3OQ16I2TcCsBA2ZcR2A/db5Qkd7aTi3goZMuA7Ad9b5Kkd7abB92Bpy5XLMoMR+RWmw3fLZloPPRBowV2klZNGiRRvmwusn3J9iZx7DvCMfKfr6xPL1iKKv1MwD/sYUdrOCn1ssH38BZyj4qYqHMcUNI/ODL9qBEcvHgx7tOzMN+BZTYC9whQfbHUjkF7bdRb6BVyoWI/n7sNAR4A6gUIW9AnAnklUO2+wHFnnQq0IHkhSxU9k7kT3BtFwJfB1jZwg/T5Uqy5FNkLgdnu+BdUgSYwmymJoZHF8NPAnsS7i2jzraK1yIpMWTtrqyti+R3eS6ogjcQ3QCy9J6kd2mYs7avdIE3At0k77jXcjgNWmLq2Z2dqEVmeCWIZmc04PP+5GQeg/wGfBLzrpOcYr/K9pzQCMSIS5GFi6zJ/73EwwiscS+oA2rqFOiDXgciQPCm5nVtqNIHLAW3VyDE43A3cBe/AU/SW0vEhs05tKzCpSDnUPod9xuB/EQJLnMARcBr5BcC1C+W18APyDv9gFkX38iikiKvRWZO9qR7a8krV3A7cCuDNqdWUM0QVFuO4C78FvC0hz43JngcyTwqU4RuetxIj4mn6VqB/BpgoaXUFw3TEX2/+O+izdqOZ2Am4DfY/RsRCFbVAA2xDj7AEmKThbzgQ9jdG3Ac4yzLsbJ88AUn06qZArR2qHjSNzghU6ipa9P+TLuiQLwLKbGEnC9q+G4Akjvj5cnCsBbmFp7caxXfMMy2E2NRGAJzCCann+tWmOXYT76wzjW4+TEBZip9BJwSTWGtmCO5KOeBObBWkzt72Q1YJe/HsKsB6p1ZiHf//BTYFe0Aclby7dhTnTPIBug9cIR4LnQeQG4Ne3FReA3To7eKH7K3vOmGfOHWr+SspbgUszvzxYlgXnwPmZfItUkcSOywjrPPIHUEHZZ7Ur7H+IGwN5/2+5LzSRga0+1txhOaw1Qm1FfWgqY5fy7K13QgJno6NZUlxO7MIM544baq7kmpNqjzAJ0i57yIFzQPR0Jl4fKH9iP91lINfZ/mRYkkQJEJ8EhKict65lx5Cc3J7DzZ6PIpNHOJP8WR4FB4CHg8/CH/wJ2bDo5Us8zpwAAAABJRU5ErkJggg==">
+                  <h2 class="title-font font-medium text-3xl text-gray-900">10.3K</h2>
+                  <p class="leading-relaxed">Users</p>
+                </div>
+              </div>
+              <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                  <img class="mx-auto mb-2"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAACJwAAAicBvhJUCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAVBSURBVHic7dtrrF1DFAfw3+2tXqqiqUf1ohJpKT5pSFAkDYKKR4OU0NBISjyqgvhEpBKvhBASfKhnEa9KCNEPxKPxgS/1qHeoR+pZRXE9eu/1YfZx9jn37LPPY/a+t/SfTM7sOWtmrZm9ZmatNbMpH4fiIXyOzfgeb+BO7D8K8pSGCbgLQxjOSJuxDD2jJGOhWGFkh7/Bxgbl14+SjIVhgdoOrsSM1P+HCNOg8v8gDi5DsNiqtjuOQ29d+VLsl+QfwjlCR9PYHq9idvL8Mh6to/kbz+PbOOLGx4ey5/cwBrBTk/pH5dQfxnsFyR4FmzQX/sGc+j34OKeNTTEFHh+zsTqswO+p5424OafOME7GBehLlU/E2VGlS9DOGjAR84TFaXIGzSJsk+T78XXnotVgGtYn+b9xXwbdRrwprBMDkXgjrOJfy5+f6TQtIv9pbfJej9NjMV/SJvOxMADDgsF1cV7DeVNgtqBS45LnH/GYYMY2wjLB4qO4KfAXrsmg20vQ1inJ8yAOwppOGa9UHdF3MTWHPr0LFKUBebvAVKxN0T/RjLiZBoxPmG2bPM/B6znMN2FSkl8gaEwMTBE0D37FDjn0c7A6yQ8k9IPtMp2uOoo/qU6DZsizA2KkVuyAcYnMlTrTmxFmYUIqPyAsKnmI9cab4bsWaIbUboMTsghjG0KLcHkzhl3iD9xQUNsjMENVhWKt5mUibbfMyCJqZV7/p7F1AEZbgNFGkd4gYTG8NPm9RVjExhSKHIDt8KTgQTJGY33dDsAUwcL6ua58Ep7B3FRZ1EBGGcjbBucIKr0Jx6bKJwsmc9p6u0f5601L22A3GnCYELXpw9OCqq/FKhyYorsVV6gNgl6CC8UxmD7CuQoIlOZpwG6CW5y20euDotc2qNcruLQx/YOrGvBpSQOaoRVLcC+sayDQkPDWs7CqQZ1O04CgjfUofAoQNOAYIYbfn5QNC1vfHU3qzRPOCfqa0LQjww8R2hmBdnyB/fEFfsOZRQjTAUrRgArew97C/P4zUpulIKYhtDlJWxT+975AGQNwtKo5vEWh24BID25KtbE4nmgtodRFsB7jhG3wwlRZzDB5KcjTgH0EM/RtzEqV9+J+tcbKK6rh8rJQuAbMx8wk/yKOxJfCqXD6XO4FnKr2pPgYwX7fRvf4BNeJfBhKvgYcIBxSVGjWCZ1Nv/mnjHR4evGLxmZtp2lJA/lK8QUOVzsI6fSwbA37IKNOp2l+Ax6lLIKrcQqeVT1Cg7txkezDlCNwfF2dTvE+XovQzgi0sw3OE+bgMG40Nu75lboNPi94dzvirUhtloKYdsC6iG2Vhq2+QAk8+rFnCXw6QtEDcDY+w6c4oWBeHaHIAViMBwRDaLxgKW5RyNsGdxLu3zyoeimpgsvUXov/FHsUJmljFL4NLsJpSX6WYN//jKuF22IVfCjEBL5Klc3ESV3yr2AdHhc6GhV5GjBXOBar0KwWDkDTJuoa7FpXr0dwmmKawgsbyFeKL3Ce7C9A3tT4Zvg44TOZmAPQKNhSiiW4XLhDfLta8/cVnKjxgeiQ8E3BQuEEuVusxb0R2hmBdnyBpSna58TpWLco1Re4TXBxpwpu8BYTHo/pC7wQsa3SsNUXGG0BRhvNBiAdZJxobAQ5WkWP8BVaBb9nETZDr2DZVVbSs7qXqzQsVJX7JyM/4/sXzRbBQeG7vfOT5+XYV7i2vj6r0iijH2fgylTZIzq4Kl/BLsK5f0yrrcz0OXbutPMVzMQ7Y6Az7aZ3VA9uukafMBVewoYx0LmstCGRcbEWb6D9A8v9ytJeE+SsAAAAAElFTkSuQmCC">
+                  <h2 class="title-font font-medium text-3xl text-gray-900">20,000+</h2>
+                  <p class="leading-relaxed">Tasks Managed Daily</p>
+                </div>
+              </div>
+              <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                  <img class="mx-auto mb-2"  src="data:image/png;base64,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">
+                  <h2 class="title-font font-medium text-3xl text-gray-900">3x</h2>
+                  <p class="leading-relaxed">Project Output</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+              <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <span class="ml-3 text-xl" style="font-weight: bold; font-size: 3em;">Busyness.</span>
+              </a>
+              <p class="mt-8 ml-3 text-sm text-gray-500">Empowering Productivity, Inspiring Excellence - Your Journey, Our Commitment.</p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Educational Resources</h2>
+                <nav class="list-none mb-10">
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Blog</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Webinars</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Tutorials</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Success Stories</a>
+                  </li>
+                </nav>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Legal Information</h2>
+                <nav class="list-none mb-10">
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Terms of Service</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">LinkedIn</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Instagram</a>
+                  </li>
+                </nav>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">About Busyness</h2>
+                <nav class="list-none mb-10">
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Our Story</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Meet the Team</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Partnerships</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Testimonials</a>
+                  </li>
+                </nav>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Connect with Us</h2>
+                <nav class="list-none mb-10">
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Facebook</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Twitter</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Instagram</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">LinkedIn</a>
+                  </li>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-100">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+              <p class="text-gray-500 text-sm text-center sm:text-left">© 2024 Busyness
+              </p>
+              <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                <a class="text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
