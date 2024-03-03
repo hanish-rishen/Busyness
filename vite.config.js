@@ -1,4 +1,4 @@
 export default {
-  base: '/your-repo-name/',
+  base: '/Busyness/',
   // other configurations...
 }
