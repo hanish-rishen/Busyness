@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busyness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body class="font-[Poppins]">
+    <header class="bg-white">
+      <nav class="flex justify-between items-center w-[92%] mx-auto">
+        <div>
+          <img class="w-80 h-30" src="images/logo.png">
+        </div>
+        <div class="nav md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[100%] md:w-auto w-full flex items-center px-5">
+          <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+            <li>
+              <a class ="hover:text-blue-400" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class ="hover:text-blue-400" href="team.html">Team</a>
+            </li>
+            <li>
+                <a class ="hover:text-blue-400" href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a class ="hover:text-blue-400" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-center gap-6">
+          <a href="register.html"><button class="bg-blue-400 text-white px-5 py-2 rounded-full hover:bg-blue-500">Register</button></a>
+          <a href="sign_in.html"><button class="bg-blue-400 text-white px-5 py-2 rounded-full hover:bg-blue-500">Sign in</button></a>
+          <ion-icon onclick="onToggleMenu(this)"   name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+    </header>
+    <script>
+      function onToggleMenu(e){
+        const Nav = document.querySelector('.nav')
+        e.name= e.name === 'menu' ? 'close' : 'menu'
+        Nav.classList.toggle('top-[12%]')
+      }
+    </script>
+    <div class="flex items-center justify-center min-h-screen" style="background-color: white">
+      <div class="container mx-auto">
+        <div class="flex w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden">
+          <div class="w-1/2" style="background-image: url('images/image.png');">
+          </div>
+          <div class="w-1/2 py-16 px-12">
+            <h2 class ="text-3xl mb-4">Welcome !</h2>
+            <p class="mb-4">
+              Use your Busyness Account
+            </p>
+            <form action="#">
+              
+              <div class="mt-5">
+                <input type="text" placeholder="Email" class="border border-gray-400 py-1 px-2 w-full" >
+              </div>
+              <div class="mt-5">
+                <input type="password" placeholder="Password" class="border border-gray-400 py-1 px-2 w-full" >
+              </div>
+              <div class="mt-5">
+                <input type="checkbox" class="border border-gray-400">
+                <span>Keep me signed in</span>
+              </div>
+              <div class="mt-5">
+                <button class="w-full bg-blue-500 py-3 text-center text-white rounded-full">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
